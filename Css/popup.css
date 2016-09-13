@@ -1,0 +1,23 @@
+body{
+    width: 200px;
+    height: auto;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    overflow: hidden;
+}
+.line{
+    width: 100%;
+    border-top: 1px solid grey;
+    margin: 3px 0 3px 0;
+    padding: 0;
+    display: block;
+}
+.option{
+    display: block;
+    margin: 3px 2px 3px 2px;
+    background-color: white;
+}
+.option:hover{
+    background-color: lightgrey;
+    cursor: pointer;
+}
